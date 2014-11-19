@@ -1,0 +1,159 @@
+@import url("../forthecause/style.css");
+/*
+Theme Name: Rythmatix
+Theme URI: http://www.studiok40.com/
+Description: a child theme for Rythmatix
+Author: Gray Ayer
+Template: forthecause
+Version: 1.0
+Author URI: http://www.studiok40.com/
+*/
+
+#inner-wrapper #header #logo {
+margin: .85em 0 0;
+}
+
+#top-section {
+	padding: 1.25em 0;
+	background-image: url(images/top_bar_bg_less.png), url(images/noise.png);
+	background-color: #b4662a;
+}
+
+/*
+#footer-wrapper {
+	background: #FFF url(images/footer_bg_more.png);
+}*/
+
+a img:hover {
+opacity: .9;
+}
+
+@media only screen and (min-width: 768px) {
+	div.row {
+		margin-bottom: 20px;
+	}
+}
+
+/****** page layouts ********/
+.post, .type-page {
+margin: 0 0 1.631em;
+padding: 0 0 1.631em;
+border-bottom: 1px solid #dcdcdc;
+}
+
+.section-wrapper header {
+	visibility: hidden;
+}
+
+/*** HEADER ****/
+
+body.page-template-default #navigation ul.nav li a {
+	padding: 1.9em 1.4em;
+}
+
+
+/******** NAVIGATION **********/
+body #wrapper #navigation .nav li.current-menu-parent > a, body #wrapper #navigation .nav li.current-menu-item a {
+	color: #C97F3F;
+}
+
+#header #navigation ul.nav li a {
+	padding: 1.9em 1.3em;
+}
+
+/*SIDEBAR*/
+
+body.page-template-default .widget .product_list_widget li img {
+	width: 6.5em;
+}
+
+/**** HOME *******/
+
+body.home  div.widget.widget_woothemes_features {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom: none;
+}
+
+body.home #top-section {
+	display: none;
+}
+
+#wooslider-id-1 {
+	display: block;
+	height: auto !important;
+	width: 100%;
+	clear: both;
+}
+
+body.home #wrapper .widget h3.feature-title {
+	font-size: 2.5em;
+	text-align: center;
+}
+
+.wooslider {
+	z-index: 0;
+}
+
+/****** WOOCOMMERCE******/
+
+@media only screen and (min-width: 768px) {
+	#main ul.products li.product {
+	width: 22%;
+	}
+}
+
+ul.products li.product .wc-new-badge {
+float: left;
+margin: 0 15px 0 0;
+}
+
+body.woocommerce #main:before {
+	content: "Free shipping on US orders $75+";
+	display: table;
+	font-size: 2em;
+	line-height: 1.2em;
+	text-align: center;
+	margin: 0 auto 1em;
+	color: #9E5A25;
+}
+body.woocommerce #main:before {
+	margin: 0 auto 1.5em;
+}
+
+body.woocommerce #content {
+	margin-top: 2em;
+}
+
+/****** FOOTER ******/
+.widget_woodojo_tweets h3:before {
+font-family: 'FontAwesome';
+display: inline-block;
+font-size: 100%;
+margin-right: .618em;
+font-weight: normal;
+line-height: 1em;
+width: 1em;
+content: "\f099";
+}
+
+aside#connect.fix h3, aside#connect.fix p  {
+	display: none;
+}
+
+
+#instagram_recent_media-2 h3 {
+	display: none;
+}
+
+/****** RESPONSIVE ******/
+
+@media only screen and (max-width: 768px) {
+	#inner-wrapper #header #logo {
+	margin: 0 0 0 4.236em;
+	}
+
+	div.widget_product_search {
+		display: none;
+	}
+}

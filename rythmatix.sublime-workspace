@@ -1,0 +1,705 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"f",
+				"float"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"bord",
+				"border-color"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"pa",
+				"paragraph"
+			],
+			[
+				"lig",
+				"light_green"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"nav",
+				"navigation"
+			],
+			[
+				"light",
+				"light_blue"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"fc-hea",
+				"fc-header-center"
+			],
+			[
+				"table",
+				"table_accent"
+			],
+			[
+				"ta",
+				"table_accent"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "\n\nSearching 2064 files for \"mc_embed_signup\"\n\n/Applications/MAMP/htdocs/rythmatix/wp/wp-content/themes/canvas/includes/theme-functions.php:\n  371  			<?php if ( $settings['connect_mailchimp_list_url'] != \"\" AND $form != 'on' AND $settings['connect_newsletter_id'] == \"\" ) : ?>\n  372  			<!-- Begin MailChimp Signup Form -->\n  373: 			<div id=\"mc_embed_signup\">\n  374  				<form class=\"newsletter-form<?php if ( $related_posts == '' ) echo ' fl'; ?>\" action=\"<?php echo $settings['connect_mailchimp_list_url']; ?>\" method=\"post\" target=\"popupwindow\" onsubmit=\"window.open('<?php echo $settings['connect_mailchimp_list_url']; ?>', 'popupwindow', 'scrollbars=yes,width=650,height=520');return true\">\n  375  					<input type=\"text\" name=\"EMAIL\" class=\"required email\" value=\"<?php _e('E-mail','woothemes'); ?>\"  id=\"mce-EMAIL\" onfocus=\"if (this.value == '<?php _e('E-mail','woothemes'); ?>') {this.value = '';}\" onblur=\"if (this.value == '') {this.value = '<?php _e('E-mail','woothemes'); ?>';}\">\n  ...\n  377  				</form>\n  378  			</div>\n  379: 			<!--End mc_embed_signup-->\n  380  			<?php endif; ?>\n  381  \n\n/Applications/MAMP/htdocs/rythmatix/wp/wp-content/themes/forthecause/includes/theme-functions.php:\n  239  			<?php if ( $settings['connect_mailchimp_list_url'] != \"\" AND $form != 'on' AND $settings['connect_newsletter_id'] == \"\" ) : ?>\n  240  			<!-- Begin MailChimp Signup Form -->\n  241: 			<div id=\"mc_embed_signup\">\n  242  				<form class=\"newsletter-form<?php if ( $related_posts == '' ) echo ' fl'; ?>\" action=\"<?php echo $settings['connect_mailchimp_list_url']; ?>\" method=\"post\" target=\"popupwindow\" onsubmit=\"window.open('<?php echo $settings['connect_mailchimp_list_url']; ?>', 'popupwindow', 'scrollbars=yes,width=650,height=520');return true\">\n  243  					<input type=\"text\" name=\"EMAIL\" class=\"required email\" value=\"<?php _e('E-mail','woothemes'); ?>\"  id=\"mce-EMAIL\" onfocus=\"if (this.value == '<?php _e('E-mail','woothemes'); ?>') {this.value = '';}\" onblur=\"if (this.value == '') {this.value = '<?php _e('E-mail','woothemes'); ?>';}\">\n  ...\n  245  				</form>\n  246  			</div>\n  247: 			<!--End mc_embed_signup-->\n  248  			<?php endif; ?>\n  249  \n\n/Applications/MAMP/htdocs/rythmatix/wp/wp-content/themes/rythmatix/includes/theme-functions.php:\n  239  			<?php if ( $settings['connect_mailchimp_list_url'] != \"\" AND $form != 'on' AND $settings['connect_newsletter_id'] == \"\" ) : ?>\n  240  			<!-- Begin MailChimp Signup Form -->\n  241: 			<div id=\"mc_embed_signup\">\n  242  				<form class=\"newsletter-form<?php if ( $related_posts == '' ) echo ' fl'; ?>\" action=\"<?php echo $settings['connect_mailchimp_list_url']; ?>\" method=\"post\" target=\"popupwindow\" onsubmit=\"window.open('<?php echo $settings['connect_mailchimp_list_url']; ?>', 'popupwindow', 'scrollbars=yes,width=650,height=520');return true\">\n  243  					<input type=\"text\" name=\"EMAIL\" class=\"required email\" value=\"<?php _e('E-mail','woothemes'); ?>\"  id=\"mce-EMAIL\" onfocus=\"if (this.value == '<?php _e('E-mail','woothemes'); ?>') {this.value = '';}\" onblur=\"if (this.value == '') {this.value = '<?php _e('E-mail','woothemes'); ?>';}\">\n  ...\n  245  				</form>\n  246  			</div>\n  247: 			<!--End mc_embed_signup-->\n  248  			<?php endif; ?>\n  249  \n\n6 matches across 3 files\n",
+			"settings":
+			{
+				"buffer_size": 3262,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "includes/theme-functions.php",
+			"settings":
+			{
+				"buffer_size": 37504,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/rythmatix/wp/wp-content/themes/forthecause/header.php",
+			"settings":
+			{
+				"buffer_size": 3571,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "functions.php",
+			"settings":
+			{
+				"buffer_size": 3716,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/rythmatix/wp/wp-config.php",
+			"settings":
+			{
+				"buffer_size": 3406,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/rythmatix/wp/wp-content/themes/forthecause/functions.php",
+			"settings":
+			{
+				"buffer_size": 2347,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 4427,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 347.0,
+		"selected_items":
+		[
+			[
+				"PACKAGE",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/rythmatix/sftp-config.json",
+		"/Applications/MAMP/htdocs/global/wp-content/themes/global/functions.php",
+		"/Applications/MAMP/htdocs/global/sftp-config.json",
+		"/Applications/MAMP/htdocs/global/wp-content/themes/global/style.css",
+		"/Applications/MAMP/htdocs/global/wp-content/themes/global/scss/_icomoon-pir.scss",
+		"/Applications/MAMP/htdocs/global/wp-content/themes/global/newfooter.php",
+		"/Applications/MAMP/htdocs/global/wp-content/themes/global/scss/_typography.scss",
+		"/Applications/MAMP/htdocs/global/wp-content/themes/global/scss/_colors.scss",
+		"/Applications/MAMP/htdocs/global/wp-content/themes/global/scss/_header.scss",
+		"/Applications/MAMP/htdocs/global/wp-content/themes/global/scss/_tables.scss",
+		"/Applications/MAMP/htdocs/global/wp-content/themes/global/template-globalhome.php",
+		"/Applications/MAMP/htdocs/global/wp-content/themes/global/scss/_footer.scss",
+		"/Applications/MAMP/htdocs/global/readme.html",
+		"/Applications/MAMP/htdocs/global/wp-content/themes/global/scss/_woo-output.scss",
+		"/Applications/MAMP/htdocs/global/wp-content/themes/global/scss/_events.scss",
+		"/Applications/MAMP/htdocs/global/wp-content/themes/canvas/page.php",
+		"/Applications/MAMP/htdocs/global/wp-content/themes/canvas/content-page.php",
+		"/Applications/MAMP/htdocs/global/wp-content/themes/canvas/includes/theme-actions.php",
+		"/Applications/MAMP/htdocs/global/wp-content/themes/canvas/css/mixins.less",
+		"/Applications/MAMP/htdocs/global/wp-content/themes/canvas/includes/sidebar-init.php",
+		"/Applications/MAMP/htdocs/global/wp-content/themes/global/scss/style.scss",
+		"/Applications/MAMP/htdocs/global/wp-content/themes/canvas/template-widgets.php",
+		"/Users/Gray/Downloads/Lynda.com - jQuery Essential Training (2013 Updated)/Ex_Files_jQuery_EssT_2013/Exercise Files/02_retrieving/AttrFilters_start.html",
+		"/Users/Gray/Downloads/Lynda.com - jQuery Essential Training (2013 Updated)/Ex_Files_jQuery_EssT_2013/Exercise Files/02_retrieving/BasicFilters_start.html",
+		"/Applications/MAMP/htdocs/global/wp-content/themes/global/scss/_home.scss",
+		"/Applications/MAMP/htdocs/global/wp-content/themes/canvas/style.less",
+		"/Applications/MAMP/htdocs/global/wp-content/themes/canvas/style.css",
+		"/Applications/MAMP/htdocs/global/wp-content/themes/canvas/functions/css/shortcodes.css",
+		"/Applications/MAMP/htdocs/global/wp-content/themes/canvas/template-contact.php",
+		"/Applications/MAMP/htdocs/global/bottomnav.html",
+		"/Applications/MAMP/htdocs/global/test.html",
+		"/Applications/MAMP/htdocs/global/wp-content/themes/global/images/PIR_brandmark_footer.svg",
+		"/Applications/MAMP/htdocs/savor/sftp-config.json",
+		"/Applications/MAMP/htdocs/savor/wp-content/themes/canvas-savor/style.css",
+		"/Applications/MAMP/htdocs/savor/savor.sublime-project",
+		"/Applications/MAMP/htdocs/savor/savor.sublime-workspace",
+		"/Applications/MAMP/htdocs/cvision/sftp-config.json",
+		"/Applications/MAMP/htdocs/cvision/index.php",
+		"/Applications/MAMP/htdocs/js/wp-content/plugins/woocommerce/templates/loop/orderby.php",
+		"/Applications/MAMP/htdocs/js/johnny.sublime-project",
+		"/Applications/MAMP/htdocs/js/untitled.sublime-project",
+		"/Applications/MAMP/htdocs/pir/wp-content/themes/pir/scss/_typography.scss",
+		"/Applications/MAMP/htdocs/pir/wp-content/themes/pir/scss/_colors.scss",
+		"/Applications/MAMP/htdocs/pir/wp-content/themes/pir/style.css",
+		"/Applications/MAMP/htdocs/pir/wp-content/themes/pir/scss/style.scss",
+		"/Applications/MAMP/htdocs/pir/wp-content/themes/pir/.sass-cache/f4ef174a8dc135a296fef9ee0ebbb61e377f7c3d/style.scssc",
+		"/Applications/MAMP/htdocs/pir/wp-content/themes/pir/template-news.php",
+		"/Applications/MAMP/htdocs/pir/wp-content/themes/pir/css/style.css",
+		"/Applications/MAMP/htdocs/pir/wp-content/themes/pir/scss/print.scss",
+		"/Applications/MAMP/htdocs/js/wp-content/themes/room09/custom.css",
+		"/Applications/MAMP/htdocs/js/wp-config.php",
+		"/Applications/MAMP/htdocs/js/wp-content/themes/room09-child/style.css"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Applications/MAMP/htdocs/rythmatix/wp/wp-content/themes",
+			"/Applications/MAMP/htdocs/global/wp-content/themes/canvas",
+			"/Applications/MAMP/htdocs/global/wp-content/themes/global/scss",
+			"/Applications/MAMP/htdocs/global/wp-content/themes",
+			"/Applications/MAMP/htdocs/global/wp-content/themes/global/scss",
+			"/Applications/MAMP/htdocs/global/wp-content/themes/canvas",
+			"/Applications/MAMP/htdocs/js/wp-content/themes/room09",
+			"/Applications/MAMP/htdocs/js/wp-content/plugins/woocommerce",
+			"/Applications/MAMP/htdocs/pir/wp-content/themes/pir",
+			"/Applications/MAMP/htdocs/pir/wp-content/themes/pir/scss"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"mc_embed_signup",
+			"top-section",
+			"class=\"widget widget_search\"",
+			"mc_embed_signup",
+			"id=\"nav-container\"",
+			"428bca",
+			"#555555",
+			"widget",
+			"social",
+			"normal bold 28px/1.2em \"Helvetica Neue\", Helvetica, Arial sans-serif",
+			"light_blue",
+			"\"Helvetica Neue\", Helvetica, sans-serif",
+			"#navigation ul.nav > li a:hover",
+			"}",
+			"upcoming_event",
+			"#428bca",
+			"widgets-page-template",
+			"nav-container",
+			"fivecol",
+			".nav-toggle",
+			"5",
+			"10",
+			"40px",
+			"light_blue",
+			", \"ss10\" 1",
+			"<em>",
+			"</em>",
+			"</span>",
+			"<span style=\"color: #000000;\">",
+			" style=\"text-align: left;\"",
+			"  ",
+			"fontawesome",
+			"left",
+			"facebook",
+			"price-desc",
+			"get_the_blognews_excerpt",
+			"view more",
+			"events",
+			"/*event calender page*/",
+			"stylesheet",
+			"tables",
+			"   ",
+			".product .summary h1.product_title, .woocommerce ul.products li.product h3, ul.products li.product h3, .woocommerce ul.products li.product.grid.classic h3"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 3262,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										343,
+										358
+									],
+									[
+										1053,
+										1068
+									],
+									[
+										1409,
+										1424
+									],
+									[
+										2119,
+										2134
+									],
+									[
+										2473,
+										2488
+									],
+									[
+										3183,
+										3198
+									],
+									[
+										3262,
+										3262
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								3169,
+								3169
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"incomplete_sync": null,
+							"output_tag": 5,
+							"remote_loading": false,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"synced": false,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 726.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "includes/theme-functions.php",
+					"settings":
+					{
+						"buffer_size": 37504,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3938.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Applications/MAMP/htdocs/rythmatix/wp/wp-content/themes/forthecause/header.php",
+					"settings":
+					{
+						"buffer_size": 3571,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 51.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "functions.php",
+					"settings":
+					{
+						"buffer_size": 3716,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2506,
+								2506
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1371.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Applications/MAMP/htdocs/rythmatix/wp/wp-config.php",
+					"settings":
+					{
+						"buffer_size": 3406,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3133,
+								3138
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 932.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Applications/MAMP/htdocs/rythmatix/wp/wp-content/themes/forthecause/functions.php",
+					"settings":
+					{
+						"buffer_size": 2347,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1879,
+								1879
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 337.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "style.css",
+					"settings":
+					{
+						"buffer_size": 4427,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								244,
+								244
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 210.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"style.css",
+				"wp-content/themes/canvas/style.css"
+			],
+			[
+				"canvas/style",
+				"wp-content/themes/canvas/style.css"
+			],
+			[
+				"home",
+				"wp-content/themes/global/template-globalhome.php"
+			],
+			[
+				"_colo",
+				"wp-content/themes/global/scss/_colors.scss"
+			],
+			[
+				"_header",
+				"wp-content/themes/global/scss/_header.scss"
+			],
+			[
+				"style",
+				"themes/johnnysole/style.css"
+			],
+			[
+				"color",
+				"wp-content/themes/pir/scss/_colors.scss"
+			],
+			[
+				"colors",
+				"wp-content/themes/pir/scss/_colors.scss"
+			],
+			[
+				"style.scss",
+				"wp-content/themes/pir/scss/style.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"yoga",
+				"/Applications/MAMP/htdocs/yogaunion/yoga.sublime-project"
+			],
+			[
+				"john",
+				"/Applications/MAMP/htdocs/js/johnny.sublime-project"
+			],
+			[
+				"globa",
+				"/Applications/MAMP/htdocs/global/global.sublime-project"
+			],
+			[
+				"pir",
+				"/Applications/MAMP/htdocs/pir/pir.sublime-project"
+			],
+			[
+				"wh",
+				"/Applications/MAMP/htdocs/whyichose/why.sublime-project"
+			],
+			[
+				"be",
+				"/Applications/MAMP/htdocs/beloved2013/sass/belovedtease.sublime-project"
+			],
+			[
+				"tease",
+				"/Applications/MAMP/htdocs/beloved2013/sass/belovedtease.sublime-project"
+			],
+			[
+				"belov",
+				"/Applications/MAMP/htdocs/beloved2013/sass/belovedtease.sublime-project"
+			],
+			[
+				"savo",
+				"/Applications/MAMP/htdocs/savor/savor.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 291.0,
+	"status_bar_visible": true
+}
