@@ -91,8 +91,26 @@
 			"file": "style.scss",
 			"settings":
 			{
-				"buffer_size": 4791,
+				"buffer_size": 5593,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<div id=\"nav_menu-3\" class=\"widget widget_nav_menu\"><h3><a href=\"/product-category/womens/\">Women’s Clothes</a></h3><div class=\"menu-womens-clothes-container\"><ul id=\"menu-womens-clothes\" class=\"menu\"><li id=\"menu-item-2221\" class=\"menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2221\"><a href=\"/product-category/womens-tops/\">Tops</a></li>\n<li id=\"menu-item-2222\" class=\"menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2222\"><a href=\"/product-category/womes-hoodies/\">Hoodies</a></li>\n<li id=\"menu-item-2223\" class=\"menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2223\"><a href=\"/product-category/leggings/\">Leggings</a></li>\n</ul></div></div>",
+			"settings":
+			{
+				"buffer_size": 719,
+				"line_ending": "Unix",
+				"name": "<div id=\"nav_menu-3\" class=\"widget widget_nav_menu"
+			}
+		},
+		{
+			"contents": "<a href=\"http://facebook.com/rythmatix\"><img src=\"/wp-content/themes/rythmatix/images/icons/Facebook.png\" width=\"32\" height=\"32\"></a>\n<a href=\"http://Instagram.com/rythmatix\"><img src=\"/wp-content/themes/rythmatix/images/icons/Instagram.png\" width=\"32\" height=\"32\"></a>\n<a href=\"http://Pinterest.com/rythmatix\"><img src=\"/wp-content/themes/rythmatix/images/icons/Pinterest.png\" width=\"32\" height=\"32\"></a>",
+			"settings":
+			{
+				"buffer_size": 405,
+				"line_ending": "Unix",
+				"name": "<a href=\"http://facebook.com/rythmatix\"><img src=\""
 			}
 		},
 		{
@@ -101,6 +119,22 @@
 			{
 				"buffer_size": 4094,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "includes/theme-functions.php",
+			"settings":
+			{
+				"buffer_size": 37738,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "footer.php",
+			"settings":
+			{
+				"buffer_size": 2982,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -199,6 +233,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"/Applications/MAMP/htdocs/rythmatix/wp/wp-content/themes/rythmatix",
 			"/Applications/MAMP/htdocs/rythmatix/wp/wp-content/themes",
 			"/Applications/MAMP/htdocs/global/wp-content/themes/canvas",
 			"/Applications/MAMP/htdocs/global/wp-content/themes/global/scss",
@@ -216,6 +251,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"http://ryth",
+			"png\"",
+			"facebook",
+			"body #wrapper ",
+			"h2",
+			"h1",
+			"top-section",
+			"free shipping",
 			"mc_embed_signup",
 			"top-section",
 			"class=\"widget widget_search\"",
@@ -284,15 +327,15 @@
 					"file": "style.scss",
 					"settings":
 					{
-						"buffer_size": 4791,
+						"buffer_size": 5593,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2778,
-								2778
+								5518,
+								5518
 							]
 						],
 						"settings":
@@ -304,13 +347,69 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2386.0,
+						"translation.y": 4974.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"settings":
+					{
+						"buffer_size": 719,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								719
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<div id=\"nav_menu-3\" class=\"widget widget_nav_menu",
+							"incomplete_sync": null,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"settings":
+					{
+						"buffer_size": 405,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								405,
+								405
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<a href=\"http://facebook.com/rythmatix\"><img src=\"",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "functions.php",
 					"settings":
 					{
@@ -334,7 +433,67 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1647.0,
+						"translation.y": 1573.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "includes/theme-functions.php",
+					"settings":
+					{
+						"buffer_size": 37738,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32677,
+								32716
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 14198.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "footer.php",
+					"settings":
+					{
+						"buffer_size": 2982,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2768,
+								2768
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 723.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -431,6 +590,10 @@
 		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"lat",
+				"/Applications/MAMP/htdocs/latch/latch.sublime-project"
+			],
 			[
 				"latch",
 				"/Applications/MAMP/htdocs/latch/latch.sublime-project"

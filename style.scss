@@ -215,10 +215,12 @@ body.woocommerce #content {
 .yith_magnifier_mousetrap:hover:before {
 	opacity: 0;}
 
-.yith_magnifier_gallery li {
-	margin-right: 2%;
-	a, a img {
-		margin-right: 0;
+.yith_magnifier_gallery {
+	li.yith_magnifier_thumbnail, li.yith_magnifier_thumbnail.last {
+		margin-right: 2%;
+		a, a img {
+			margin-right: 0;
+		}
 	}
 }
 /****** FOOTER ******/
@@ -260,8 +262,12 @@ body #wrapper{
 	}
 
 	.page header h1 {
-	 font:bold 'Play', arial, sans-serif;color:#3E3E3E; 
+	 font:bold 'Play', arial, sans-serif;color:#3E3E3E;
 	}
+
+	 h1.product_title {
+	 	clear: both;
+	 }
 
 	.post header h1, .post header h1 a:link, .post header h1 a:visited {
 	 font:bold 'Play', arial, sans-serif;color:#3E3E3E; 
@@ -334,7 +340,6 @@ body #wrapper #footer-widgets .widget h3 {
 }*/
 
 
-.mgl_instagram_gallery .mgl_instagram_photo {
+.widget.mgl_instagram_user_gallery .mgl_instagram_gallery a.mgl_instagram_photo {
 	padding: 0 3px 3px 0;
 }
-
