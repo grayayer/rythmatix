@@ -852,10 +852,17 @@ if (!function_exists( 'woo_display_top_section')) {
 		<section id="top-section">
 				<div class="col-full">
 					<div class="section-wrapper">
-						<header>
-							<h1><?php echo $title; ?></h1>
-						</header>
-						<?php if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar('subheader-widget') ) ?>
+						<div class="threecol-one first">
+							<header>
+								<h1><?php echo $title; ?></h1>
+							</header>
+						</div>
+						<div class="threecol-one">
+							<span class="center-header-msg">Free shipping on US orders $75.00+</span>
+						</div>
+						<div class="threecol-one last">
+							<?php if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar('subheader-widget') ) ?>
+						</div>
 					</div>
 				</div><!--/.col-full -->
 		</section><!--/#top-section -->

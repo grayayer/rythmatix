@@ -88,28 +88,10 @@
 	"buffers":
 	[
 		{
-			"contents": "\n\nSearching 2064 files for \"mc_embed_signup\"\n\n/Applications/MAMP/htdocs/rythmatix/wp/wp-content/themes/canvas/includes/theme-functions.php:\n  371  			<?php if ( $settings['connect_mailchimp_list_url'] != \"\" AND $form != 'on' AND $settings['connect_newsletter_id'] == \"\" ) : ?>\n  372  			<!-- Begin MailChimp Signup Form -->\n  373: 			<div id=\"mc_embed_signup\">\n  374  				<form class=\"newsletter-form<?php if ( $related_posts == '' ) echo ' fl'; ?>\" action=\"<?php echo $settings['connect_mailchimp_list_url']; ?>\" method=\"post\" target=\"popupwindow\" onsubmit=\"window.open('<?php echo $settings['connect_mailchimp_list_url']; ?>', 'popupwindow', 'scrollbars=yes,width=650,height=520');return true\">\n  375  					<input type=\"text\" name=\"EMAIL\" class=\"required email\" value=\"<?php _e('E-mail','woothemes'); ?>\"  id=\"mce-EMAIL\" onfocus=\"if (this.value == '<?php _e('E-mail','woothemes'); ?>') {this.value = '';}\" onblur=\"if (this.value == '') {this.value = '<?php _e('E-mail','woothemes'); ?>';}\">\n  ...\n  377  				</form>\n  378  			</div>\n  379: 			<!--End mc_embed_signup-->\n  380  			<?php endif; ?>\n  381  \n\n/Applications/MAMP/htdocs/rythmatix/wp/wp-content/themes/forthecause/includes/theme-functions.php:\n  239  			<?php if ( $settings['connect_mailchimp_list_url'] != \"\" AND $form != 'on' AND $settings['connect_newsletter_id'] == \"\" ) : ?>\n  240  			<!-- Begin MailChimp Signup Form -->\n  241: 			<div id=\"mc_embed_signup\">\n  242  				<form class=\"newsletter-form<?php if ( $related_posts == '' ) echo ' fl'; ?>\" action=\"<?php echo $settings['connect_mailchimp_list_url']; ?>\" method=\"post\" target=\"popupwindow\" onsubmit=\"window.open('<?php echo $settings['connect_mailchimp_list_url']; ?>', 'popupwindow', 'scrollbars=yes,width=650,height=520');return true\">\n  243  					<input type=\"text\" name=\"EMAIL\" class=\"required email\" value=\"<?php _e('E-mail','woothemes'); ?>\"  id=\"mce-EMAIL\" onfocus=\"if (this.value == '<?php _e('E-mail','woothemes'); ?>') {this.value = '';}\" onblur=\"if (this.value == '') {this.value = '<?php _e('E-mail','woothemes'); ?>';}\">\n  ...\n  245  				</form>\n  246  			</div>\n  247: 			<!--End mc_embed_signup-->\n  248  			<?php endif; ?>\n  249  \n\n/Applications/MAMP/htdocs/rythmatix/wp/wp-content/themes/rythmatix/includes/theme-functions.php:\n  239  			<?php if ( $settings['connect_mailchimp_list_url'] != \"\" AND $form != 'on' AND $settings['connect_newsletter_id'] == \"\" ) : ?>\n  240  			<!-- Begin MailChimp Signup Form -->\n  241: 			<div id=\"mc_embed_signup\">\n  242  				<form class=\"newsletter-form<?php if ( $related_posts == '' ) echo ' fl'; ?>\" action=\"<?php echo $settings['connect_mailchimp_list_url']; ?>\" method=\"post\" target=\"popupwindow\" onsubmit=\"window.open('<?php echo $settings['connect_mailchimp_list_url']; ?>', 'popupwindow', 'scrollbars=yes,width=650,height=520');return true\">\n  243  					<input type=\"text\" name=\"EMAIL\" class=\"required email\" value=\"<?php _e('E-mail','woothemes'); ?>\"  id=\"mce-EMAIL\" onfocus=\"if (this.value == '<?php _e('E-mail','woothemes'); ?>') {this.value = '';}\" onblur=\"if (this.value == '') {this.value = '<?php _e('E-mail','woothemes'); ?>';}\">\n  ...\n  245  				</form>\n  246  			</div>\n  247: 			<!--End mc_embed_signup-->\n  248  			<?php endif; ?>\n  249  \n\n6 matches across 3 files\n",
+			"file": "style.scss",
 			"settings":
 			{
-				"buffer_size": 3262,
-				"line_ending": "Unix",
-				"name": "Find Results",
-				"scratch": true
-			}
-		},
-		{
-			"file": "includes/theme-functions.php",
-			"settings":
-			{
-				"buffer_size": 37504,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Applications/MAMP/htdocs/rythmatix/wp/wp-content/themes/forthecause/header.php",
-			"settings":
-			{
-				"buffer_size": 3571,
+				"buffer_size": 4791,
 				"line_ending": "Unix"
 			}
 		},
@@ -117,31 +99,7 @@
 			"file": "functions.php",
 			"settings":
 			{
-				"buffer_size": 3716,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Applications/MAMP/htdocs/rythmatix/wp/wp-config.php",
-			"settings":
-			{
-				"buffer_size": 3406,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Applications/MAMP/htdocs/rythmatix/wp/wp-content/themes/forthecause/functions.php",
-			"settings":
-			{
-				"buffer_size": 2347,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "style.css",
-			"settings":
-			{
-				"buffer_size": 4427,
+				"buffer_size": 4094,
 				"line_ending": "Unix"
 			}
 		}
@@ -174,6 +132,11 @@
 	},
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/rythmatix/wp/wp-content/themes/forthecause/functions.php",
+		"/Applications/MAMP/htdocs/rythmatix/wp/wp-content/themes/forthecause/header.php",
+		"/Applications/MAMP/htdocs/rythmatix/wp/wp-content/themes/rythmatix/includes/theme-functions.php",
+		"/Applications/MAMP/htdocs/rythmatix/wp/wp-content/themes/rythmatix/functions.php",
+		"/Applications/MAMP/htdocs/rythmatix/wp/wp-config.php",
 		"/Applications/MAMP/htdocs/rythmatix/sftp-config.json",
 		"/Applications/MAMP/htdocs/global/wp-content/themes/global/functions.php",
 		"/Applications/MAMP/htdocs/global/sftp-config.json",
@@ -313,242 +276,23 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "style.scss",
 					"settings":
 					{
-						"buffer_size": 3262,
-						"regions":
-						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										343,
-										358
-									],
-									[
-										1053,
-										1068
-									],
-									[
-										1409,
-										1424
-									],
-									[
-										2119,
-										2134
-									],
-									[
-										2473,
-										2488
-									],
-									[
-										3183,
-										3198
-									],
-									[
-										3262,
-										3262
-									]
-								],
-								"scope": ""
-							}
-						},
-						"selection":
-						[
-							[
-								3169,
-								3169
-							]
-						],
-						"settings":
-						{
-							"detect_indentation": false,
-							"incomplete_sync": null,
-							"output_tag": 5,
-							"remote_loading": false,
-							"result_base_dir": "",
-							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"synced": false,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 726.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "includes/theme-functions.php",
-					"settings":
-					{
-						"buffer_size": 37504,
+						"buffer_size": 4791,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 3938.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/Applications/MAMP/htdocs/rythmatix/wp/wp-content/themes/forthecause/header.php",
-					"settings":
-					{
-						"buffer_size": 3571,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 51.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "functions.php",
-					"settings":
-					{
-						"buffer_size": 3716,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2506,
-								2506
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1371.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/Applications/MAMP/htdocs/rythmatix/wp/wp-config.php",
-					"settings":
-					{
-						"buffer_size": 3406,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3133,
-								3138
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 932.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/Applications/MAMP/htdocs/rythmatix/wp/wp-content/themes/forthecause/functions.php",
-					"settings":
-					{
-						"buffer_size": 2347,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1879,
-								1879
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 337.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "style.css",
-					"settings":
-					{
-						"buffer_size": 4427,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								244,
-								244
+								2778,
+								2778
 							]
 						],
 						"settings":
@@ -560,7 +304,37 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2386.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "functions.php",
+					"settings":
+					{
+						"buffer_size": 4094,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3110,
+								3110
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1647.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -657,6 +431,10 @@
 		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"latch",
+				"/Applications/MAMP/htdocs/latch/latch.sublime-project"
+			],
 			[
 				"yoga",
 				"/Applications/MAMP/htdocs/yogaunion/yoga.sublime-project"

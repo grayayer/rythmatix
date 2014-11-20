@@ -68,17 +68,34 @@ body.page-template-default #navigation ul.nav li a {
 	color: #FFF;
 }
 
-#top-section .section-wrapper {
-	display: inline-grid;
+#top-section {
+	.section-wrapper {
+		display: inline-grid;
+	}
+
+	header {
+		display: inline-block;
+		h1 {
+			margin: .55em;
+		}
+	}
+	.threecol-one {
+		margin-bottom: 0;
+	}
+	span.center-header-msg {
+		font-family: Play, arial, sans-serif;
+		color: #FFF;
+		font-size: 1.7em;
+		text-align: center;
+		display: inline-block;
+		line-height: 1.2em;
+		margin: .55em;
+		text-shadow: 0 1px 1px #000000;
+		text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);		
+	}
 }
 
-#top-section header {
-	display: inline-block;
-}
 
-#top-section header h1 {
-	margin: .55em;
-}
 
 /******** NAVIGATION **********/
 body #wrapper #navigation .nav li.current-menu-parent > a, body #wrapper #navigation .nav li.current-menu-item a {
@@ -159,6 +176,7 @@ float: left;
 margin: 0 15px 0 0;
 }
 
+/*
 body.woocommerce #main:before {
 	content: "Free shipping on US orders $75+";
 	display: table;
@@ -168,6 +186,7 @@ body.woocommerce #main:before {
 	margin: 0 auto 1em;
 	color: #9E5A25;
 }
+
 body.woocommerce #main:before {
 	margin: 0 auto 1.5em;
 }
@@ -175,6 +194,7 @@ body.woocommerce #main:before {
 body.woocommerce #content {
 	margin-top: 2em;
 }
+*/
 
 .yith_magnifier_mousetrap:before {
 	font-family: "fontawesome";
@@ -228,40 +248,41 @@ body {
  font:300 1.4em/1.5em 'PT Sans', arial, sans-serif;color:#3E3E3E; 
 }
 
-body #wrapper #navigation .nav a {
- font:bold 'Play', arial, sans-serif;color:#ffffff; 
-}
+body #wrapper{
+	#navigation .nav a {
+	 font:bold 'Play', arial, sans-serif;color:#ffffff; 
+	}
 
-body #wrapper .page header h1 {
- font:bold 'Play', arial, sans-serif;color:#3E3E3E; 
-}
+	.page header h1 {
+	 font:bold 'Play', arial, sans-serif;color:#3E3E3E; 
+	}
 
-body #wrapper .post header h1, body #wrapper .post header h1 a:link, body #wrapper .post header h1 a:visited {
- font:bold 'Play', arial, sans-serif;color:#3E3E3E; 
-}
+	.post header h1, .post header h1 a:link, .post header h1 a:visited {
+	 font:bold 'Play', arial, sans-serif;color:#3E3E3E; 
+	}
 
-body #wrapper .post-meta {
- font:300 'Play', arial, sans-serif;color:#3E3E3E; 
-}
+	.post-meta {
+	 font:300 'Play', arial, sans-serif;color:#3E3E3E; 
+	}
 
-body #wrapper .entry, body #wrapper .entry p {
- font:300 'Play', arial, sans-serif;color:#3E3E3E; }
+	.entry, .entry p {
+	 font:300 'Play', arial, sans-serif;color:#3E3E3E; }
 
-h1, h2, h3, h4, h5, h6  {
-	font-family: Play, arial, sans-serif; 
-}
+	h1, h2, h3, h4, h5, h6  {
+		font-family: Play, arial, sans-serif; 
+	}
 
-body #wrapper .widget h3 {
- font:bold 1em/1em 'Play', arial, sans-serif;color:#3E3E3E; 
-}
+	.widget h3 {
+	 font:bold 1em/1em 'Play', arial, sans-serif;color:#3E3E3E; 
+	}
 
-body #wrapper .widget h3 {
- font:bold 1em/1em 'Play', arial, sans-serif;color:#3E3E3E; 
-}
-
-
-div.feature.last {
-	margin-right: 0 !important; /*seems to be missing from the most recent stylesheets*/
+	.widget h3 {
+	 font:bold 1em/1em 'Play', arial, sans-serif;color:#3E3E3E; 
+	}
+	
+	div.feature.last {
+		margin-right: 0 !important; /*seems to be missing from the most recent stylesheets*/
+	}
 }
 
 /****** RESPONSIVE ******/
@@ -275,3 +296,12 @@ div.feature.last {
 		display: none;
 	}
 }
+
+/* FOOTER */
+@media only screen and (min-width: 768px) {
+	#footer-wrapper #footer-widgets {
+		float: none;
+		width: 100%;
+	}
+}
+
