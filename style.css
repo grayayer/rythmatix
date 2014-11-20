@@ -191,6 +191,13 @@ body.woocommerce #content {
   opacity: 0;
 }
 
+.yith_magnifier_gallery li {
+  margin-right: 2%;
+}
+.yith_magnifier_gallery li a, .yith_magnifier_gallery li a img {
+  margin-right: 0;
+}
+
 /****** FOOTER ******/
 .widget_woodojo_tweets h3:before {
   font-family: 'FontAwesome';
@@ -273,4 +280,28 @@ body #wrapper div.feature.last {
     float: none;
     width: 100%;
   }
+}
+body #wrapper #footer-widgets .widget h3 {
+  font: bold 1.2em/1em 'Play', arial, sans-serif;
+  color: #777;
+}
+
+/*
+#connect .social a {
+	opacity: 1;
+	&:hover {
+		opacity: .8;
+	}
+	&.facebook:before {
+		color: #3b5998;
+	}
+	&.instagram:before {
+		color: #517fa4;
+	}
+	&.pinterest:before {
+		color: #cb2027;
+	}		
+}*/
+.mgl_instagram_gallery .mgl_instagram_photo {
+  padding: 0 3px 3px 0;
 }

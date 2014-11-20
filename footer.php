@@ -46,7 +46,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 
 		</section><!-- /#footer-widgets  -->
 	<?php } // End IF Statement ?>
-		<footer id="footer">
+<?php /*		<footer id="footer">
 
 			<div id="footer-left" class="col-left">
 
@@ -75,7 +75,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 			</div>
 
 		</footer><!-- /#footer  -->
-
+*/ ?>
 	</div><!-- /#footer-wrapper -->
 
 	</div><!-- /.section-wrapper -->
