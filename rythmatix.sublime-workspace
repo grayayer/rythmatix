@@ -91,17 +91,8 @@
 			"file": "style.scss",
 			"settings":
 			{
-				"buffer_size": 5593,
+				"buffer_size": 5738,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "<div id=\"nav_menu-3\" class=\"widget widget_nav_menu\"><h3><a href=\"/product-category/womens/\">Women’s Clothes</a></h3><div class=\"menu-womens-clothes-container\"><ul id=\"menu-womens-clothes\" class=\"menu\"><li id=\"menu-item-2221\" class=\"menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2221\"><a href=\"/product-category/womens-tops/\">Tops</a></li>\n<li id=\"menu-item-2222\" class=\"menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2222\"><a href=\"/product-category/womes-hoodies/\">Hoodies</a></li>\n<li id=\"menu-item-2223\" class=\"menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2223\"><a href=\"/product-category/leggings/\">Leggings</a></li>\n</ul></div></div>",
-			"settings":
-			{
-				"buffer_size": 719,
-				"line_ending": "Unix",
-				"name": "<div id=\"nav_menu-3\" class=\"widget widget_nav_menu"
 			}
 		},
 		{
@@ -166,6 +157,7 @@
 	},
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/rythmatix/wp/wp-content/themes/rythmatix/style.css",
 		"/Applications/MAMP/htdocs/rythmatix/wp/wp-content/themes/forthecause/functions.php",
 		"/Applications/MAMP/htdocs/rythmatix/wp/wp-content/themes/forthecause/header.php",
 		"/Applications/MAMP/htdocs/rythmatix/wp/wp-content/themes/rythmatix/includes/theme-functions.php",
@@ -251,6 +243,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"#wrapper",
 			"http://ryth",
 			"png\"",
 			"facebook",
@@ -319,7 +312,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -327,15 +320,15 @@
 					"file": "style.scss",
 					"settings":
 					{
-						"buffer_size": 5593,
+						"buffer_size": 5738,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5518,
-								5518
+								5619,
+								5619
 							]
 						],
 						"settings":
@@ -347,40 +340,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4974.0,
+						"translation.y": 5141.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"settings":
-					{
-						"buffer_size": 719,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								719
-							]
-						],
-						"settings":
-						{
-							"auto_name": "<div id=\"nav_menu-3\" class=\"widget widget_nav_menu",
-							"incomplete_sync": null,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"settings":
 					{
 						"buffer_size": 405,
@@ -409,7 +375,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "functions.php",
 					"settings":
 					{
@@ -433,13 +399,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1573.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "includes/theme-functions.php",
 					"settings":
 					{
@@ -469,7 +435,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "footer.php",
 					"settings":
 					{
@@ -546,6 +512,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"functions",
+				"wp/wp-content/themes/rythmatix/functions.php"
+			],
 			[
 				"style.css",
 				"wp-content/themes/canvas/style.css"
