@@ -133,6 +133,14 @@ function woo_metaboxes_add($woo_metaboxes) {
 return $woo_metaboxes;
  }
 
+/* if I wanted the woocommerce pages to say something different
 
+add_filter( 'woocommerce_page_title', 'custom_woocommerce_page_title');
+function custom_woocommerce_page_title( $page_title ) {
+  if( $page_title == 'Shop' ) {
+    return "WooCommerce Demo Products";
+  }
+}
+*/
 
 ?>
