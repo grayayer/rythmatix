@@ -857,9 +857,7 @@ if (!function_exists( 'woo_display_top_section')) {
 								<h1><?php echo $title; ?></h1>
 							</header>
 						</div>
-						<div class="threecol-one">
-							<span class="center-header-msg">Free shipping on US orders $75.00+</span>
-						</div>
+						<?php if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar('subheader-center-widget') ) ?>
 						<div class="threecol-one last">
 							<?php if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar('subheader-widget') ) ?>
 						</div>

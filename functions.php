@@ -104,6 +104,15 @@ if ($_POST['marketing_source']) update_post_meta( $order_id, 'Marketing Source',
 		'after_title' => '</a></h1><div class="box">',
 	) );	
 
+	register_sidebar( array(
+		'name' => __( 'SubHeader Center Widget', 'skeleton' ),
+		'id' => 'subheader-center-widget',
+		'description' => __( 'used for searches or connect area.', 'skeleton' ),
+		'before_widget' => '<div id="%1$s" class="subheader threecol-one"><span class="center-header-msg">',
+		'after_widget' => '</span></div>',
+		'before_title' => '<h1>',
+		'after_title' => '</a></h1><div class="box">',
+	) );	
 
 /* Include Google Fonts */
     function load_fonts() {
