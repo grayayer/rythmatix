@@ -94,15 +94,7 @@ if ($_POST['marketing_source']) update_post_meta( $order_id, 'Marketing Source',
 
 
 /* Register Subheader widget area */
-	register_sidebar( array(
-		'name' => __( 'SubHeader Widget', 'skeleton' ),
-		'id' => 'subheader-widget',
-		'description' => __( 'used for searches or connect area.', 'skeleton' ),
-		'before_widget' => '<div id="%1$s" class="subheader right">',
-		'after_widget' => '</div>',
-		'before_title' => '<h1>',
-		'after_title' => '</a></h1><div class="box">',
-	) );	
+	
 
 	register_sidebar( array(
 		'name' => __( 'SubHeader Center Widget', 'skeleton' ),
@@ -110,6 +102,16 @@ if ($_POST['marketing_source']) update_post_meta( $order_id, 'Marketing Source',
 		'description' => __( 'used for searches or connect area.', 'skeleton' ),
 		'before_widget' => '<div id="%1$s" class="subheader threecol-one"><span class="center-header-msg">',
 		'after_widget' => '</span></div>',
+		'before_title' => '<h1>',
+		'after_title' => '</a></h1><div class="box">',
+	) );
+
+	register_sidebar( array(
+		'name' => __( 'SubHeader Right Widget', 'skeleton' ),
+		'id' => 'subheader-right-widget',
+		'description' => __( 'used for searches or connect area.', 'skeleton' ),
+		'before_widget' => '<div id="%1$s" class="subheader right">',
+		'after_widget' => '</div>',
 		'before_title' => '<h1>',
 		'after_title' => '</a></h1><div class="box">',
 	) );	

@@ -859,7 +859,7 @@ if (!function_exists( 'woo_display_top_section')) {
 						</div>
 						<?php if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar('subheader-center-widget') ) ?>
 						<div class="threecol-one last">
-							<?php if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar('subheader-widget') ) ?>
+							<?php if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar('subheader-right-widget') ) ?>
 						</div>
 					</div>
 				</div><!--/.col-full -->

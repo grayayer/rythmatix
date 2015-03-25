@@ -1,5 +1,4 @@
-@import url("../forthecause/style.css");
-/*
+/*!
 Theme Name: Rythmatix
 Theme URI: http://www.studiok40.com/
 Description: a child theme for Rythmatix
@@ -7,7 +6,8 @@ Author: Gray Ayer
 Template: forthecause
 Version: 1.10.10.14
 Author URI: http://www.studiok40.com/
-*/
+!*/
+@import url("../forthecause/style.css");
 
 $link_color_active: #C97F3F;
 
@@ -81,6 +81,9 @@ body.page-template-default #navigation ul.nav li a {
 	}
 	.threecol-one {
 		margin-bottom: 0;
+		&.last {
+			float: right;
+		}
 	}
 	span.center-header-msg {
 		font-family: Play, arial, sans-serif;
